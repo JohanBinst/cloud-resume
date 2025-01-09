@@ -1,0 +1,101 @@
+h1 {
+  font-size: 3em;
+}
+
+h1, h2 {
+  color: rgb(10 10 10);
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3, h4, h5, h6 {
+  color: rgb(10 10 10);
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(241 245 249/ var(---bg-opacity, 1));
+  color: rgb(10 10 10);
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+text-decoration: none;
+  color: rgb(10 10 10);
+}
+
+a:hover {
+  color: white;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  color: white;
+}
+
+nav {
+  background-color: rgb(30 41 59);
+  padding: 5px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  padding: 25px 5px;
+  background-color: rgb(15 23 42 / 97%);
+  margin-top: 60px;
+}
+
+footer ul, header ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr{
+  width: 85%;
+  margin: 30px auto;
+}
+
+.wrapper {
+  padding-top: 12px;
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(241 245 249);
+  margin: 1px auto;
+  padding: 25px 30px;
+}
+
+.button, .button > a {
+  color: rgb(203 213 225);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.icon {
+  height: 32px;
+  color: white;
+  font-size: 1.4em;
+}
